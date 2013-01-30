@@ -5,14 +5,14 @@ $config = array();
 $config['importdb'] = 
 	array(
 		'type'=>'mysql',
-		'user'=>'test1',
-		'pass'=>'test',
+		'user'=>'',
+		'pass'=>'',
 		'host'=>'localhost',
 		'port'=>'3306',
-		'dbname'=>'blogfor2'
+		'dbname'=>''
 		);
 
-$config['db_prefix'] = 'mhenox_';
+$config['db_prefix'] = '';
 $config['dbsite'] = '';
 $config['db_fileroot'] = '';
 $config['db_galleryroot'] = '';
